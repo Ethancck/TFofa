@@ -1,6 +1,6 @@
 # TFofa
 一个使用Fofa API查询的小工具
-![Jietu20200516-184214](./pic/tools2.png)
+![Jietu20200516-184214](./images/1.png)
 
 ## 声明
 
