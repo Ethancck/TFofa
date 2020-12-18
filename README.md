@@ -1,5 +1,5 @@
 # TFofa
-一个使用Fofa API查询的小工具
+一个使用Fofa API查询的小工具,支持cidr导出。
 ![Jietu20200516-184214](./images/1.png)
 
 ## 声明
@@ -16,19 +16,16 @@ cd TFofa # 进入git目录
 pip3 install -r requirements.txt
 python3 fofa.py -h
 ```
-### HTTP探测
-
+### 查询
 ```
-python3 Bird.py -f url.txt --output http.txt -t 30 #使用output参数输出到文件 -t 指定线程数目
+python3 fofa.py --query "your words" --out 6.csv --size 50   #使用out参数把查询结果输出到文件
 ```
-### 特征搜索
-这里搜索Spring Boot的报错页面
+### 导出查询到的C段
+使用--cidr命令
 ```
-python3 Bird.py -f url.txt --output http.txt -t 30 --search "Whitelabel" 
+python3 fofa.py --query "your words" --out 6.csv --size 50 --cidr #把C段导出为cidr.txt
 ```
 ![Jietu20200516-184214](./pic/tools1.png)
 
-## TODO
-- [x] CMS指纹识别
 ## 贡献&感谢
 - @Ethan
