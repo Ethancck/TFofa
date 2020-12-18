@@ -4,17 +4,17 @@
 
 ## 声明
 
-使用Bird前请遵守当地法律,Bird仅提供给教育行为使用。
+使用TFofa前请遵守当地法律,TFofa仅提供给教育行为使用。
 
 ## 使用
 
 ### 安装
-安装Bird需要依赖Python3.6 以上环境.
+安装TFofa需要依赖Python3.6 以上环境.
 ```bash
-git clone https://github.com/Ethancck/Bird.git
-cd Bird # 进入git目录
+git clone https://github.com/Ethancck/TFofa.git
+cd TFofa # 进入git目录
 pip3 install -r requirements.txt
-python3 Bird.py -h
+python3 fofa.py -h
 ```
 ### HTTP探测
 
