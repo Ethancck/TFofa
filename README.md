@@ -25,7 +25,7 @@ python3 fofa.py --query "your words" --out 6.csv --size 50   #使用out参数把
 ```
 python3 fofa.py --query "your words" --out 6.csv --size 50 --cidr #把C段导出为cidr.txt
 ```
-![Jietu20200516-184214](./pic/tools1.png)
+![Jietu20200516-184214](./images/2.png)
 
 ## 贡献&感谢
 - @Ethan
