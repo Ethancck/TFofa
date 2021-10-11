@@ -31,7 +31,7 @@ python3 fofa.py --query "your words" --out 6.csv --size 50 --cidr #把C段导出
 ```
 python3 fofa.py --cert domain.txt --cidr   #domain.txt为域名列表，c段会保存为domain_cidr.csv的形式
 ```
-![Jietu20200516-184214](./images/2.png)
+![Jietu20200516-184214](./images/3.png)
 
 ## 贡献&感谢
 - @Ethan
